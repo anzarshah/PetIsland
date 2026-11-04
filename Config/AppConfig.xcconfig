@@ -1,0 +1,15 @@
+// Every service identifier the app ships with, in one place. All of these are public by design:
+// Supabase's publishable key and Google's OAuth client IDs are meant to be embedded in the app.
+//
+// Never put the Supabase service_role key or a Google client secret here or anywhere in the app.
+// The service_role key lives only in Supabase Edge Function secrets (see SETUP.md).
+//
+// Values flow into Info.plist via project.yml and are read by AppConfig.swift at launch.
+
+// `//` starts a comment in xcconfig files, so the scheme separator is written as `/$()/`.
+SUPABASE_URL = https:/$()/vzokhzbrhqpokvjvfvvp.supabase.co
+SUPABASE_PUBLISHABLE_KEY = sb_publishable_pCxfc6VNxsga0aYi_xLM3Q_b6Ba-g5b
+
+GOOGLE_IOS_CLIENT_ID = 384864931586-tit673b2vi8n25kgcphqpq9i85tqpdl0.apps.googleusercontent.com
+GOOGLE_REVERSED_CLIENT_ID = com.googleusercontent.apps.384864931586-tit673b2vi8n25kgcphqpq9i85tqpdl0
+GOOGLE_WEB_CLIENT_ID = 384864931586-d84h0ksotdfrs79hqb45hftt7blnpt5b.apps.googleusercontent.com

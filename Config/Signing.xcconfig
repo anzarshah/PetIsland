@@ -1,0 +1,7 @@
+// Signing and identity for all targets (app, widget extension, tests).
+#include "AppConfig.xcconfig"
+
+DEVELOPMENT_TEAM = RVG4LJ7DUF
+
+// The app's bundle identifier. The widget and tests derive theirs from it.
+ISLANDPET_BUNDLE_ID = com.anzarshah.petisland

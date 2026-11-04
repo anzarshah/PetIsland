@@ -1,0 +1,114 @@
+name: IslandPet
+options:
+  bundleIdPrefix: com.anzarshah
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+configFiles:
+  Debug: Config/Signing.xcconfig
+  Release: Config/Signing.xcconfig
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    TARGETED_DEVICE_FAMILY: "1"
+    CODE_SIGN_STYLE: Automatic
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    SWIFT_STRICT_CONCURRENCY: minimal
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+packages:
+  Supabase:
+    url: https://github.com/supabase/supabase-swift
+    from: 2.0.0
+  GoogleSignIn:
+    url: https://github.com/google/GoogleSignIn-iOS
+    from: 8.0.0
+targets:
+  IslandPet:
+    type: application
+    platform: iOS
+    sources:
+      - IslandPet
+      - Shared
+    dependencies:
+      - target: IslandPetWidget
+        embed: true
+      - package: Supabase
+        product: Supabase
+      - package: GoogleSignIn
+        product: GoogleSignIn
+      - package: GoogleSignIn
+        product: GoogleSignInSwift
+    entitlements:
+      path: IslandPet/IslandPet.entitlements
+      properties:
+        com.apple.developer.applesignin:
+          - Default
+    info:
+      path: IslandPet/Info.plist
+      properties:
+        CFBundleDisplayName: Island Pet
+        NSSupportsLiveActivities: true
+        NSSupportsLiveActivitiesFrequentUpdates: true
+        ITSAppUsesNonExemptEncryption: false
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        CFBundleURLTypes:
+          - CFBundleURLName: $(PRODUCT_BUNDLE_IDENTIFIER)
+            CFBundleURLSchemes:
+              - islandpet
+          - CFBundleURLName: com.google.signin
+            CFBundleURLSchemes:
+              - $(GOOGLE_REVERSED_CLIENT_ID)
+        GIDClientID: $(GOOGLE_IOS_CLIENT_ID)
+        GIDServerClientID: $(GOOGLE_WEB_CLIENT_ID)
+        SupabaseURL: $(SUPABASE_URL)
+        SupabasePublishableKey: $(SUPABASE_PUBLISHABLE_KEY)
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(ISLANDPET_BUNDLE_ID)
+        TARGETED_DEVICE_FAMILY: "1"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+  IslandPetWidget:
+    type: app-extension
+    platform: iOS
+    sources:
+      - IslandPetWidget
+      - Shared
+    info:
+      path: IslandPetWidget/Info.plist
+      properties:
+        CFBundleDisplayName: Island Pet
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(ISLANDPET_BUNDLE_ID).widget
+        TARGETED_DEVICE_FAMILY: "1"
+  IslandPetTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - IslandPetTests
+    dependencies:
+      - target: IslandPet
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(ISLANDPET_BUNDLE_ID).tests
+        TARGETED_DEVICE_FAMILY: "1"
+        GENERATE_INFOPLIST_FILE: YES
+schemes:
+  IslandPet:
+    build:
+      targets:
+        IslandPet: all
+        IslandPetTests: [test]
+    run:
+      config: Debug
+    test:
+      targets:
+        - IslandPetTests
+    archive:
+      config: Release

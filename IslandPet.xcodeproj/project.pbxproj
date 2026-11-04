@@ -1,0 +1,814 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C0088185CBFD3075B5C333 /* AuthModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE6B63B4B603C52979D1643 /* AuthModels.swift */; };
+		1393D58DD18CDBD10A5FFEA1 /* AccountSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FD53834DFD023BCEEF984D /* AccountSection.swift */; };
+		166DEE68CD49B45FDBE85A1D /* PetFrames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05452A22FFCC7012137110DE /* PetFrames.swift */; };
+		1FD35906E020BE3D7B61F6A5 /* PetIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80A910D2328C0C145432F32 /* PetIntents.swift */; };
+		28D589A5325178BB90568E13 /* AuthServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65CBC364B3D1074A6E137EE /* AuthServiceTests.swift */; };
+		2BE2CF73287B0173918AA69E /* PetIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80A910D2328C0C145432F32 /* PetIntents.swift */; };
+		2C9B494B583D34B8D3B2F671 /* ReminderPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DED3EC59F5BD471F488F59 /* ReminderPlannerTests.swift */; };
+		37117D7D431EEA07C198A14C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81B15789E58E4FD0B0E8AEA /* HomeView.swift */; };
+		3B96416D9106A7ED580E3AA7 /* IslandPetWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 709734338C0AB20C79D9E26A /* IslandPetWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3D9AECFD3F114525C5415007 /* PetStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745AED660B23F0405113FE1 /* PetStoreTests.swift */; };
+		3E464DF363C07B977CE23651 /* PetReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AC1F46C92ED519339EED3 /* PetReducer.swift */; };
+		46FC4AFF9EBBCCE1041FC657 /* IslandPetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20D22B4D6669B2A2FBDC7A5 /* IslandPetApp.swift */; };
+		4E4F4EF18D61621D4075CA26 /* CompactSprites.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF225F1CF762BDDEF5723B69 /* CompactSprites.swift */; };
+		540679BD9E12E52303C78069 /* PetSprites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957761F5F72AAC7966CBEA6E /* PetSprites.swift */; };
+		551532A09E26B283D1FA1772 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A4F9D737A9933C6224E36D /* RootView.swift */; };
+		5BEE87BDDB8BFAFB5672468F /* SessionMappingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061BB45A3FC097BA5F523938 /* SessionMappingTests.swift */; };
+		5C12240C2BDE57249A17217A /* IslandVisitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F351066A067E4E2D8C1759 /* IslandVisitManager.swift */; };
+		5D5E2168B05B3BFC35E2C03D /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 00CFE30C2CDE6A808E1D5BE5 /* GoogleSignInSwift */; };
+		5DEAEDFE0ABA23E2FF05BBDC /* RemindersSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E35F2E7677654AA0DCF632 /* RemindersSheet.swift */; };
+		5F809302DCD5B3CF7B5E20A3 /* AppServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329290850B4884451CFD658D /* AppServices.swift */; };
+		62ACCA2E4968C4E5F1264738 /* PetRigs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71C386E45ED5F26EF936260 /* PetRigs.swift */; };
+		668AE9CC03AA2C31DDBC4D3B /* PixelArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E9B9269B77D10B6A3A6024 /* PixelArt.swift */; };
+		66E7461629AED96533191DF2 /* PetAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E73874852C497C7CEDC57E6 /* PetAttributes.swift */; };
+		68CC2255EE93F268C957E4A3 /* AdoptionFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B1294E43D143CBCD94C47B /* AdoptionFlow.swift */; };
+		6CEE21333AA0796F67B1FB5A /* GameBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88B41FB4AAE1867140DA9DB /* GameBalance.swift */; };
+		6F7F12043A43BF91C2AA837D /* PixelArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E9B9269B77D10B6A3A6024 /* PixelArt.swift */; };
+		74438EBDF4F6BA9D12A479FC /* PetSprites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957761F5F72AAC7966CBEA6E /* PetSprites.swift */; };
+		78572FCD226369652E99DD3F /* GameBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88B41FB4AAE1867140DA9DB /* GameBalance.swift */; };
+		7BCC880D16CE3E30CAC7CBF2 /* PetWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA309D15531E537E332EFE3D /* PetWidgets.swift */; };
+		836A5FD60E6F22236F5831B2 /* ReminderPlanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69809C9827874DB5ED80B6A /* ReminderPlanner.swift */; };
+		888071C4D5FCC2A9811CE421 /* PetSpriteComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E55862674FCF30F501730B /* PetSpriteComposer.swift */; };
+		88D61104356353BDE961BB28 /* PetReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AC1F46C92ED519339EED3 /* PetReducer.swift */; };
+		8AF8D0E3A5FC7C4B5C7F7F5C /* ReminderPlanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69809C9827874DB5ED80B6A /* ReminderPlanner.swift */; };
+		8D38213BF8312949B1854806 /* PetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E932178EEB889418D64ED6D /* PetStore.swift */; };
+		8DB9E468097024F17CBC44CC /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = B5C63565541740266473B1FB /* GoogleSignIn */; };
+		91BED192584AA2499187EF29 /* PetAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E73874852C497C7CEDC57E6 /* PetAttributes.swift */; };
+		920F4527AA7621CA1E191F8B /* HomeComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA787F2E5FB7D1FAFF39DF6 /* HomeComponents.swift */; };
+		942020C68BE1013EBEB86BB3 /* PetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450B65B75E10A00039C53D6 /* PetModel.swift */; };
+		997A7F8FD5E7D7F9C4AF117E /* IslandPetWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104A929BE0785BDCDDFC0758 /* IslandPetWidgetBundle.swift */; };
+		AACD16F97F012002C019CC57 /* PetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450B65B75E10A00039C53D6 /* PetModel.swift */; };
+		B404AE4AC64D067E70F813D3 /* PetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E932178EEB889418D64ED6D /* PetStore.swift */; };
+		B6DBFD333D8D34E18210C6C3 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = F86BB80489C3004F6169C383 /* Supabase */; };
+		BC36DE8017BE9EE2DE7893A3 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C455E2CE4A8A11F928D0E84 /* AuthService.swift */; };
+		BE79ED308C798A8C60B36179 /* AuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F796B66D8D8FF90C41F4EDB /* AuthClient.swift */; };
+		BF0118805F7C944A81C36041 /* PetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1C9F62E90F991225EE20D1 /* PetLiveActivity.swift */; };
+		C1BEFA2909FB536DC9623D5A /* PetWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA309D15531E537E332EFE3D /* PetWidgets.swift */; };
+		C985872B4AD4E6B15542E508 /* PetStageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543D84A497C0A814B364F11E /* PetStageView.swift */; };
+		C9EC46CCF5584845BB08FF10 /* PetState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2219E51390715FECEFDF6F3C /* PetState.swift */; };
+		CA135F9491066BA6AD9E4C6F /* CompactSprites.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF225F1CF762BDDEF5723B69 /* CompactSprites.swift */; };
+		CE557194F980FE76278141D5 /* SettingsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6319E27048E6FA193A71448 /* SettingsSheet.swift */; };
+		D05DC9FB6FF2431AB16F73FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3FC3C3ED5C93581BE1B0D06 /* Assets.xcassets */; };
+		D3980E5E5FEEEA3A77F686A9 /* EditPetSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA611E125EF020DA6B7F190B /* EditPetSheet.swift */; };
+		D453260AFBD14955005A6967 /* PetState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2219E51390715FECEFDF6F3C /* PetState.swift */; };
+		DFB39370521E490BFA948FA7 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7EFDF45D0740D06B2AAAFB /* AppConfig.swift */; };
+		E23E0100C6F07975E69F790F /* IslandPetShortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2344E9D3C89C5B5D49B653B /* IslandPetShortcuts.swift */; };
+		E2CEFE2A53B5CE63BF77894F /* PetSpriteComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E55862674FCF30F501730B /* PetSpriteComposer.swift */; };
+		E3206A29D49A64C507950338 /* PetFrames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05452A22FFCC7012137110DE /* PetFrames.swift */; };
+		E638180D23509CAB0EAC5077 /* PetReducerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667D711059C46BEF3908E24A /* PetReducerTests.swift */; };
+		E67CD37CA2EB57AD69474F9A /* IslandVisitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F351066A067E4E2D8C1759 /* IslandVisitManager.swift */; };
+		EA04C47EB50658FCE704CC56 /* PetRigs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71C386E45ED5F26EF936260 /* PetRigs.swift */; };
+		EDFCCE3C14D5C304EED3785F /* ReminderScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545D91D566E567AEC60C0DF3 /* ReminderScheduler.swift */; };
+		F1D273C0DC828EF1B89EAF15 /* PetActivityViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827216F19A630F15E7EA8B33 /* PetActivityViews.swift */; };
+		F7BBCBF185570E483F6B931E /* PetAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760F363FDB871E9C09880977 /* PetAnimator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		377BD1957D35BEE7E0FD8DFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58152CF38A8A62F95528E2B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E77DF327BFED9B3E22A3C54;
+			remoteInfo = IslandPet;
+		};
+		A1B034110B8CF56F66F2156B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58152CF38A8A62F95528E2B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F3808E208495B59A09735ED;
+			remoteInfo = IslandPetWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		11463CD4FFF4BBEF9CB25A69 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3B96416D9106A7ED580E3AA7 /* IslandPetWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		05452A22FFCC7012137110DE /* PetFrames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFrames.swift; sourceTree = "<group>"; };
+		061BB45A3FC097BA5F523938 /* SessionMappingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionMappingTests.swift; sourceTree = "<group>"; };
+		0E932178EEB889418D64ED6D /* PetStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetStore.swift; sourceTree = "<group>"; };
+		104A929BE0785BDCDDFC0758 /* IslandPetWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandPetWidgetBundle.swift; sourceTree = "<group>"; };
+		16FD53834DFD023BCEEF984D /* AccountSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSection.swift; sourceTree = "<group>"; };
+		2219E51390715FECEFDF6F3C /* PetState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetState.swift; sourceTree = "<group>"; };
+		28F351066A067E4E2D8C1759 /* IslandVisitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandVisitManager.swift; sourceTree = "<group>"; };
+		329290850B4884451CFD658D /* AppServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppServices.swift; sourceTree = "<group>"; };
+		3B1C9F62E90F991225EE20D1 /* PetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetLiveActivity.swift; sourceTree = "<group>"; };
+		3C455E2CE4A8A11F928D0E84 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		53B1294E43D143CBCD94C47B /* AdoptionFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdoptionFlow.swift; sourceTree = "<group>"; };
+		543D84A497C0A814B364F11E /* PetStageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetStageView.swift; sourceTree = "<group>"; };
+		545D91D566E567AEC60C0DF3 /* ReminderScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderScheduler.swift; sourceTree = "<group>"; };
+		55E55862674FCF30F501730B /* PetSpriteComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetSpriteComposer.swift; sourceTree = "<group>"; };
+		57FD0D4185E19F5719C52941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		667D711059C46BEF3908E24A /* PetReducerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetReducerTests.swift; sourceTree = "<group>"; };
+		6E7EFDF45D0740D06B2AAAFB /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		6F796B66D8D8FF90C41F4EDB /* AuthClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthClient.swift; sourceTree = "<group>"; };
+		709734338C0AB20C79D9E26A /* IslandPetWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = IslandPetWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		760F363FDB871E9C09880977 /* PetAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetAnimator.swift; sourceTree = "<group>"; };
+		78A4F9D737A9933C6224E36D /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		7C1F0C295B21EA9D5F9B0334 /* Signing.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Signing.xcconfig; sourceTree = "<group>"; };
+		827216F19A630F15E7EA8B33 /* PetActivityViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetActivityViews.swift; sourceTree = "<group>"; };
+		8450B65B75E10A00039C53D6 /* PetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetModel.swift; sourceTree = "<group>"; };
+		89780AAC5F9275FE60E583EB /* IslandPet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IslandPet.entitlements; sourceTree = "<group>"; };
+		8E73874852C497C7CEDC57E6 /* PetAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetAttributes.swift; sourceTree = "<group>"; };
+		957761F5F72AAC7966CBEA6E /* PetSprites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetSprites.swift; sourceTree = "<group>"; };
+		99FAC727DB41D390C2F7D7AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A3E35F2E7677654AA0DCF632 /* RemindersSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersSheet.swift; sourceTree = "<group>"; };
+		A71C386E45ED5F26EF936260 /* PetRigs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetRigs.swift; sourceTree = "<group>"; };
+		AAE6B63B4B603C52979D1643 /* AuthModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModels.swift; sourceTree = "<group>"; };
+		B20D22B4D6669B2A2FBDC7A5 /* IslandPetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandPetApp.swift; sourceTree = "<group>"; };
+		B745AED660B23F0405113FE1 /* PetStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetStoreTests.swift; sourceTree = "<group>"; };
+		C6319E27048E6FA193A71448 /* SettingsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSheet.swift; sourceTree = "<group>"; };
+		C65CBC364B3D1074A6E137EE /* AuthServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServiceTests.swift; sourceTree = "<group>"; };
+		C69809C9827874DB5ED80B6A /* ReminderPlanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderPlanner.swift; sourceTree = "<group>"; };
+		C80A910D2328C0C145432F32 /* PetIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetIntents.swift; sourceTree = "<group>"; };
+		CA309D15531E537E332EFE3D /* PetWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetWidgets.swift; sourceTree = "<group>"; };
+		CCA787F2E5FB7D1FAFF39DF6 /* HomeComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeComponents.swift; sourceTree = "<group>"; };
+		D07AC1F46C92ED519339EED3 /* PetReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetReducer.swift; sourceTree = "<group>"; };
+		D3E9B9269B77D10B6A3A6024 /* PixelArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelArt.swift; sourceTree = "<group>"; };
+		D440FEA5A903319122AE6902 /* IslandPet.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = IslandPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5125D0858F3C79414C37498 /* IslandPetTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = IslandPetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81B15789E58E4FD0B0E8AEA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D88B41FB4AAE1867140DA9DB /* GameBalance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBalance.swift; sourceTree = "<group>"; };
+		E3FC3C3ED5C93581BE1B0D06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1DED3EC59F5BD471F488F59 /* ReminderPlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderPlannerTests.swift; sourceTree = "<group>"; };
+		F2344E9D3C89C5B5D49B653B /* IslandPetShortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandPetShortcuts.swift; sourceTree = "<group>"; };
+		FA611E125EF020DA6B7F190B /* EditPetSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPetSheet.swift; sourceTree = "<group>"; };
+		FF225F1CF762BDDEF5723B69 /* CompactSprites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactSprites.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26642CA03A0D987E159CBE46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6DBFD333D8D34E18210C6C3 /* Supabase in Frameworks */,
+				8DB9E468097024F17CBC44CC /* GoogleSignIn in Frameworks */,
+				5D5E2168B05B3BFC35E2C03D /* GoogleSignInSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01E05980FEF4215D84709BD1 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FF225F1CF762BDDEF5723B69 /* CompactSprites.swift */,
+				D88B41FB4AAE1867140DA9DB /* GameBalance.swift */,
+				28F351066A067E4E2D8C1759 /* IslandVisitManager.swift */,
+				8E73874852C497C7CEDC57E6 /* PetAttributes.swift */,
+				05452A22FFCC7012137110DE /* PetFrames.swift */,
+				C80A910D2328C0C145432F32 /* PetIntents.swift */,
+				8450B65B75E10A00039C53D6 /* PetModel.swift */,
+				D07AC1F46C92ED519339EED3 /* PetReducer.swift */,
+				A71C386E45ED5F26EF936260 /* PetRigs.swift */,
+				55E55862674FCF30F501730B /* PetSpriteComposer.swift */,
+				957761F5F72AAC7966CBEA6E /* PetSprites.swift */,
+				2219E51390715FECEFDF6F3C /* PetState.swift */,
+				0E932178EEB889418D64ED6D /* PetStore.swift */,
+				CA309D15531E537E332EFE3D /* PetWidgets.swift */,
+				D3E9B9269B77D10B6A3A6024 /* PixelArt.swift */,
+				C69809C9827874DB5ED80B6A /* ReminderPlanner.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		43A93A3FD3FBFBA15E9F0CCF /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				16FD53834DFD023BCEEF984D /* AccountSection.swift */,
+				6E7EFDF45D0740D06B2AAAFB /* AppConfig.swift */,
+				6F796B66D8D8FF90C41F4EDB /* AuthClient.swift */,
+				AAE6B63B4B603C52979D1643 /* AuthModels.swift */,
+				3C455E2CE4A8A11F928D0E84 /* AuthService.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		804FA572841058F208568193 /* IslandPetTests */ = {
+			isa = PBXGroup;
+			children = (
+				C65CBC364B3D1074A6E137EE /* AuthServiceTests.swift */,
+				667D711059C46BEF3908E24A /* PetReducerTests.swift */,
+				B745AED660B23F0405113FE1 /* PetStoreTests.swift */,
+				F1DED3EC59F5BD471F488F59 /* ReminderPlannerTests.swift */,
+				061BB45A3FC097BA5F523938 /* SessionMappingTests.swift */,
+			);
+			path = IslandPetTests;
+			sourceTree = "<group>";
+		};
+		A49283ADA41FF752DC67EE73 = {
+			isa = PBXGroup;
+			children = (
+				FA39A84EA57D5E90CCAB9E7E /* Config */,
+				D04EE014230EEE29375A765B /* IslandPet */,
+				804FA572841058F208568193 /* IslandPetTests */,
+				C08C5ABF2A0558587E3A8E42 /* IslandPetWidget */,
+				01E05980FEF4215D84709BD1 /* Shared */,
+				E9269448D5BE5BD2C0C776AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C08C5ABF2A0558587E3A8E42 /* IslandPetWidget */ = {
+			isa = PBXGroup;
+			children = (
+				57FD0D4185E19F5719C52941 /* Info.plist */,
+				104A929BE0785BDCDDFC0758 /* IslandPetWidgetBundle.swift */,
+				827216F19A630F15E7EA8B33 /* PetActivityViews.swift */,
+				3B1C9F62E90F991225EE20D1 /* PetLiveActivity.swift */,
+			);
+			path = IslandPetWidget;
+			sourceTree = "<group>";
+		};
+		D04EE014230EEE29375A765B /* IslandPet */ = {
+			isa = PBXGroup;
+			children = (
+				53B1294E43D143CBCD94C47B /* AdoptionFlow.swift */,
+				329290850B4884451CFD658D /* AppServices.swift */,
+				E3FC3C3ED5C93581BE1B0D06 /* Assets.xcassets */,
+				FA611E125EF020DA6B7F190B /* EditPetSheet.swift */,
+				CCA787F2E5FB7D1FAFF39DF6 /* HomeComponents.swift */,
+				D81B15789E58E4FD0B0E8AEA /* HomeView.swift */,
+				99FAC727DB41D390C2F7D7AC /* Info.plist */,
+				89780AAC5F9275FE60E583EB /* IslandPet.entitlements */,
+				B20D22B4D6669B2A2FBDC7A5 /* IslandPetApp.swift */,
+				F2344E9D3C89C5B5D49B653B /* IslandPetShortcuts.swift */,
+				760F363FDB871E9C09880977 /* PetAnimator.swift */,
+				543D84A497C0A814B364F11E /* PetStageView.swift */,
+				545D91D566E567AEC60C0DF3 /* ReminderScheduler.swift */,
+				A3E35F2E7677654AA0DCF632 /* RemindersSheet.swift */,
+				78A4F9D737A9933C6224E36D /* RootView.swift */,
+				C6319E27048E6FA193A71448 /* SettingsSheet.swift */,
+				43A93A3FD3FBFBA15E9F0CCF /* Auth */,
+			);
+			path = IslandPet;
+			sourceTree = "<group>";
+		};
+		E9269448D5BE5BD2C0C776AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D440FEA5A903319122AE6902 /* IslandPet.app */,
+				D5125D0858F3C79414C37498 /* IslandPetTests.xctest */,
+				709734338C0AB20C79D9E26A /* IslandPetWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA39A84EA57D5E90CCAB9E7E /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				7C1F0C295B21EA9D5F9B0334 /* Signing.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08A1DABAE95FC3C33F352AED /* IslandPetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FD6894E3EE560ACF3CD0CE7 /* Build configuration list for PBXNativeTarget "IslandPetTests" */;
+			buildPhases = (
+				C809CFC6DF31C372A867F68F /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				140881701CA59706520C6B09 /* PBXTargetDependency */,
+			);
+			name = IslandPetTests;
+			packageProductDependencies = (
+			);
+			productName = IslandPetTests;
+			productReference = D5125D0858F3C79414C37498 /* IslandPetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0E77DF327BFED9B3E22A3C54 /* IslandPet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 517255F3C7C0E5F2D6705802 /* Build configuration list for PBXNativeTarget "IslandPet" */;
+			buildPhases = (
+				E1C4EB48DDE9AA43CD8EFF7F /* Sources */,
+				DBDE920E3F598135A3F4B190 /* Resources */,
+				26642CA03A0D987E159CBE46 /* Frameworks */,
+				11463CD4FFF4BBEF9CB25A69 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EF21D107BD9AC5D799F1FD1 /* PBXTargetDependency */,
+			);
+			name = IslandPet;
+			packageProductDependencies = (
+				F86BB80489C3004F6169C383 /* Supabase */,
+				B5C63565541740266473B1FB /* GoogleSignIn */,
+				00CFE30C2CDE6A808E1D5BE5 /* GoogleSignInSwift */,
+			);
+			productName = IslandPet;
+			productReference = D440FEA5A903319122AE6902 /* IslandPet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F3808E208495B59A09735ED /* IslandPetWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 544EE54881C3E9CE57506224 /* Build configuration list for PBXNativeTarget "IslandPetWidget" */;
+			buildPhases = (
+				62BCACAEC0D8D018DD78BD16 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IslandPetWidget;
+			packageProductDependencies = (
+			);
+			productName = IslandPetWidget;
+			productReference = 709734338C0AB20C79D9E26A /* IslandPetWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58152CF38A8A62F95528E2B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					08A1DABAE95FC3C33F352AED = {
+						DevelopmentTeam = RVG4LJ7DUF;
+						ProvisioningStyle = Automatic;
+					};
+					0E77DF327BFED9B3E22A3C54 = {
+						DevelopmentTeam = RVG4LJ7DUF;
+						ProvisioningStyle = Automatic;
+					};
+					8F3808E208495B59A09735ED = {
+						DevelopmentTeam = RVG4LJ7DUF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9A3EF22E5F2AD61C998D23DE /* Build configuration list for PBXProject "IslandPet" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A49283ADA41FF752DC67EE73;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D11A59934EAA229C646D8A8C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				D65418BBEDC9B3443695CC4B /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E9269448D5BE5BD2C0C776AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E77DF327BFED9B3E22A3C54 /* IslandPet */,
+				8F3808E208495B59A09735ED /* IslandPetWidget */,
+				08A1DABAE95FC3C33F352AED /* IslandPetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBDE920E3F598135A3F4B190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05DC9FB6FF2431AB16F73FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62BCACAEC0D8D018DD78BD16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA135F9491066BA6AD9E4C6F /* CompactSprites.swift in Sources */,
+				6CEE21333AA0796F67B1FB5A /* GameBalance.swift in Sources */,
+				997A7F8FD5E7D7F9C4AF117E /* IslandPetWidgetBundle.swift in Sources */,
+				E67CD37CA2EB57AD69474F9A /* IslandVisitManager.swift in Sources */,
+				F1D273C0DC828EF1B89EAF15 /* PetActivityViews.swift in Sources */,
+				91BED192584AA2499187EF29 /* PetAttributes.swift in Sources */,
+				166DEE68CD49B45FDBE85A1D /* PetFrames.swift in Sources */,
+				2BE2CF73287B0173918AA69E /* PetIntents.swift in Sources */,
+				BF0118805F7C944A81C36041 /* PetLiveActivity.swift in Sources */,
+				942020C68BE1013EBEB86BB3 /* PetModel.swift in Sources */,
+				88D61104356353BDE961BB28 /* PetReducer.swift in Sources */,
+				62ACCA2E4968C4E5F1264738 /* PetRigs.swift in Sources */,
+				888071C4D5FCC2A9811CE421 /* PetSpriteComposer.swift in Sources */,
+				540679BD9E12E52303C78069 /* PetSprites.swift in Sources */,
+				C9EC46CCF5584845BB08FF10 /* PetState.swift in Sources */,
+				8D38213BF8312949B1854806 /* PetStore.swift in Sources */,
+				C1BEFA2909FB536DC9623D5A /* PetWidgets.swift in Sources */,
+				668AE9CC03AA2C31DDBC4D3B /* PixelArt.swift in Sources */,
+				836A5FD60E6F22236F5831B2 /* ReminderPlanner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C809CFC6DF31C372A867F68F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28D589A5325178BB90568E13 /* AuthServiceTests.swift in Sources */,
+				E638180D23509CAB0EAC5077 /* PetReducerTests.swift in Sources */,
+				3D9AECFD3F114525C5415007 /* PetStoreTests.swift in Sources */,
+				2C9B494B583D34B8D3B2F671 /* ReminderPlannerTests.swift in Sources */,
+				5BEE87BDDB8BFAFB5672468F /* SessionMappingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C4EB48DDE9AA43CD8EFF7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1393D58DD18CDBD10A5FFEA1 /* AccountSection.swift in Sources */,
+				68CC2255EE93F268C957E4A3 /* AdoptionFlow.swift in Sources */,
+				DFB39370521E490BFA948FA7 /* AppConfig.swift in Sources */,
+				5F809302DCD5B3CF7B5E20A3 /* AppServices.swift in Sources */,
+				BE79ED308C798A8C60B36179 /* AuthClient.swift in Sources */,
+				00C0088185CBFD3075B5C333 /* AuthModels.swift in Sources */,
+				BC36DE8017BE9EE2DE7893A3 /* AuthService.swift in Sources */,
+				4E4F4EF18D61621D4075CA26 /* CompactSprites.swift in Sources */,
+				D3980E5E5FEEEA3A77F686A9 /* EditPetSheet.swift in Sources */,
+				78572FCD226369652E99DD3F /* GameBalance.swift in Sources */,
+				920F4527AA7621CA1E191F8B /* HomeComponents.swift in Sources */,
+				37117D7D431EEA07C198A14C /* HomeView.swift in Sources */,
+				46FC4AFF9EBBCCE1041FC657 /* IslandPetApp.swift in Sources */,
+				E23E0100C6F07975E69F790F /* IslandPetShortcuts.swift in Sources */,
+				5C12240C2BDE57249A17217A /* IslandVisitManager.swift in Sources */,
+				F7BBCBF185570E483F6B931E /* PetAnimator.swift in Sources */,
+				66E7461629AED96533191DF2 /* PetAttributes.swift in Sources */,
+				E3206A29D49A64C507950338 /* PetFrames.swift in Sources */,
+				1FD35906E020BE3D7B61F6A5 /* PetIntents.swift in Sources */,
+				AACD16F97F012002C019CC57 /* PetModel.swift in Sources */,
+				3E464DF363C07B977CE23651 /* PetReducer.swift in Sources */,
+				EA04C47EB50658FCE704CC56 /* PetRigs.swift in Sources */,
+				E2CEFE2A53B5CE63BF77894F /* PetSpriteComposer.swift in Sources */,
+				74438EBDF4F6BA9D12A479FC /* PetSprites.swift in Sources */,
+				C985872B4AD4E6B15542E508 /* PetStageView.swift in Sources */,
+				D453260AFBD14955005A6967 /* PetState.swift in Sources */,
+				B404AE4AC64D067E70F813D3 /* PetStore.swift in Sources */,
+				7BCC880D16CE3E30CAC7CBF2 /* PetWidgets.swift in Sources */,
+				6F7F12043A43BF91C2AA837D /* PixelArt.swift in Sources */,
+				8AF8D0E3A5FC7C4B5C7F7F5C /* ReminderPlanner.swift in Sources */,
+				EDFCCE3C14D5C304EED3785F /* ReminderScheduler.swift in Sources */,
+				5DEAEDFE0ABA23E2FF05BBDC /* RemindersSheet.swift in Sources */,
+				551532A09E26B283D1FA1772 /* RootView.swift in Sources */,
+				CE557194F980FE76278141D5 /* SettingsSheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		140881701CA59706520C6B09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E77DF327BFED9B3E22A3C54 /* IslandPet */;
+			targetProxy = 377BD1957D35BEE7E0FD8DFE /* PBXContainerItemProxy */;
+		};
+		4EF21D107BD9AC5D799F1FD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F3808E208495B59A09735ED /* IslandPetWidget */;
+			targetProxy = A1B034110B8CF56F66F2156B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		62AAACD7363E7E5D95E91B34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IslandPetWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(ISLANDPET_BUNDLE_ID).widget";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A0DEB8A7121F4BE47E1DF59C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C1F0C295B21EA9D5F9B0334 /* Signing.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A448064D29E3447FB35CD1DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(ISLANDPET_BUNDLE_ID).tests";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IslandPet.app/IslandPet";
+			};
+			name = Release;
+		};
+		B7D9AA90086C0033487CA87A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IslandPet/IslandPet.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = IslandPet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(ISLANDPET_BUNDLE_ID)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D56B32CDBB8B5A98A289AA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C1F0C295B21EA9D5F9B0334 /* Signing.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D5714D5533560C7FD60C428A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(ISLANDPET_BUNDLE_ID).tests";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IslandPet.app/IslandPet";
+			};
+			name = Debug;
+		};
+		D5843F3F925A2060460802E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IslandPetWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(ISLANDPET_BUNDLE_ID).widget";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F8676BCE02954C2CDC16BF4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IslandPet/IslandPet.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = IslandPet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(ISLANDPET_BUNDLE_ID)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		517255F3C7C0E5F2D6705802 /* Build configuration list for PBXNativeTarget "IslandPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7D9AA90086C0033487CA87A /* Debug */,
+				F8676BCE02954C2CDC16BF4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		544EE54881C3E9CE57506224 /* Build configuration list for PBXNativeTarget "IslandPetWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5843F3F925A2060460802E9 /* Debug */,
+				62AAACD7363E7E5D95E91B34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5FD6894E3EE560ACF3CD0CE7 /* Build configuration list for PBXNativeTarget "IslandPetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5714D5533560C7FD60C428A /* Debug */,
+				A448064D29E3447FB35CD1DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9A3EF22E5F2AD61C998D23DE /* Build configuration list for PBXProject "IslandPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D56B32CDBB8B5A98A289AA0B /* Debug */,
+				A0DEB8A7121F4BE47E1DF59C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D11A59934EAA229C646D8A8C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		D65418BBEDC9B3443695CC4B /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		00CFE30C2CDE6A808E1D5BE5 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D11A59934EAA229C646D8A8C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		B5C63565541740266473B1FB /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D11A59934EAA229C646D8A8C /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		F86BB80489C3004F6169C383 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D65418BBEDC9B3443695CC4B /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 58152CF38A8A62F95528E2B6 /* Project object */;
+}
